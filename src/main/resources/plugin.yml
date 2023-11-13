@@ -1,0 +1,11 @@
+name: NekoMaintenance
+version: '${version}'
+main: NekoMaintenance.Main
+commands:
+  maintenance:
+    description: Plugin Maintenance Command by LukeTheNeko
+permissions:
+  NekoMaintenance.commands:
+    default: false
+  NekoMaintenance.join:
+    default: false

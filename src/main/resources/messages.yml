@@ -1,0 +1,15 @@
+## NekoMaintenance
+## v1.0.0
+## You find any errors or bugs? report at https://github.com/LukeTheNeko/NekoMaintenance
+
+motd: "&6&lServer is undergoing maintenance! \n&3&lWe'll be back shortly"
+versionProtocol: -2
+versionName: "&c&l In Maintenance"
+messages:
+  no-permission: "&5[NekoPL] &cYou do not have permission to use this command!"
+  maintenance-enabled: "&5[NekoPL] &cMaintenance mode has been enabled!"
+  maintenance-disabled: "&5[NekoPL] &aMaintenance mode has been disabled!"
+  already-enabled: "&5[NekoPL] &cMaintenance mode is already active!"
+  already-disabled: "&5[NekoPL] &aMaintenance mode is already deactivated!"
+  maintenance-on-off: "&5[NekoPL] &aPlease use /maintenance on or /maintenance off"
+  maintenance-kick: "&5[NekoPL]  \n\n &c&lIn in maintence \n\n &f&lwebsite.com."
