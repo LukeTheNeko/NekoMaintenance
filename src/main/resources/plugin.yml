@@ -1,6 +1,7 @@
 name: NekoMaintenance
 version: '${version}'
 main: NekoMaintenance.Main
+authors: [LukeTheNeko]
 commands:
   maintenance:
     description: Plugin Maintenance Command by LukeTheNeko

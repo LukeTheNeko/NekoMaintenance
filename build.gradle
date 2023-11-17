@@ -53,5 +53,5 @@ processResources {
 
 jar {
     archiveFileName = "NekoMaintenance-1.0.0.jar"
-    destinationDirectory.set(file('C:\\Users\\lucas\\Desktop\\mine server 1.8.9\\plugins'))
+    destinationDirectory.set(file('C:\\Users\\lucas\\OneDrive\\Desktop\\mine server 1.8.9\\plugins'))
 }
