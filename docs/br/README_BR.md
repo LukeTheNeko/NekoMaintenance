@@ -5,9 +5,10 @@
 
 **O que o plugin faz?**
 
-- Um plugin simples para Minecraft que adiciona uma mensagem na modtag de manutenção ao seu servidor de Minecraft.
+- Um plugin simples para Minecraft que adiciona uma mensagem editável na modtag de manutenção ao seu servidor de Minecraft.
 
-[![Modtag](https://i.imgur.com/JhrNS67.png)]()
+[![Motd](../imgs/img1.png)]()
+[![Motd](../imgs/img2.png)]()
 
 **Permissões:**
 

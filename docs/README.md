@@ -5,9 +5,10 @@
 
 **What does the plugin do?**
 
-- A simple Minecraft plugin that adds a maintenance message to your Minecraft server's motd.
+- A simple Minecraft plugin that allows you to change maintenance message to your Minecraft server's motd
 
-[![Motd](https://i.imgur.com/JhrNS67.png)]()
+[![Motd](../docs/imgs/img1.png)]()
+[![Motd](../docs/imgs/img2.png)]()
 
 **Permissions:**
 

@@ -33,7 +33,7 @@ public class commands implements CommandExecutor, Listener {
         if (!(sender instanceof Player)) return false;
 
         Player p = (Player) sender;
-        if (!p.hasPermission("nekoMaintenance.commands")) {
+        if (!p.hasPermission("NekoMaintenance.commands")) {
             p.sendMessage(c(Main.msgF.getConfig().getString("messages.no-permission")));
             return true;
         }
@@ -119,7 +119,7 @@ public class commands implements CommandExecutor, Listener {
 
     @EventHandler
     public void onPlayerLogin(PlayerLoginEvent event) {
-        if (manutencaoAtivada && !event.getPlayer().hasPermission("nekoMaintenance.join")) {
+        if (manutencaoAtivada && !event.getPlayer().hasPermission("NekoMaintenance.join")) {
             String kickMessage = Main.msgF.getConfig().getString("messages.maintenance-kick");
             event.disallow(PlayerLoginEvent.Result.KICK_OTHER, c(kickMessage));
         }
@@ -127,7 +127,7 @@ public class commands implements CommandExecutor, Listener {
 
     public void kickPlayersWithoutPermission() {
         for (Player player : Main.plugin.getServer().getOnlinePlayers()) {
-            if (!player.hasPermission("nekoMaintenance.join")) {
+            if (!player.hasPermission("NekoMaintenance.join")) {
                 String kickMessage = Main.msgF.getConfig().getString("messages.maintenance-kick");
                 player.kickPlayer(c(kickMessage));
             }

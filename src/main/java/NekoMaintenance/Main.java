@@ -20,7 +20,7 @@ public final class Main extends JavaPlugin {
                 "&f║║║║╣ ╠╩╗║ ║&5║║║╠═╣║║║║ ║ ║╣ ║║║╠═╣║║║║  ║╣ \n" +
                 "&f╝╚╝╚═╝╩ ╩╚═╝&5╩ ╩╩ ╩╩╝╚╝ ╩ ╚═╝╝╚╝╩ ╩╝╚╝╚═╝╚═╝\n" +
                 "\n" +
-                "&2v1.0.1 by LukeTheNeko\n" +
+                "&2v1.0.2 by LukeTheNeko\n" +
                 "&2https://github.com/LukeTheNeko/NekoMaintenance\n\n"));
 
         plugin = this;
