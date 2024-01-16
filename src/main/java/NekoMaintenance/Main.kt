@@ -13,7 +13,7 @@ class Main : JavaPlugin() {
     &f║║║║╣ ╠╩╗║ ║&5║║║╠═╣║║║║ ║ ║╣ ║║║╠═╣║║║║  ║╣ 
     &f╝╚╝╚═╝╩ ╩╚═╝&5╩ ╩╩ ╩╩╝╚╝ ╩ ╚═╝╝╚╝╩ ╩╝╚╝╚═╝╚═╝
     
-    &2v1.0.2 by LukeTheNeko
+    &2v1.1.1 by LukeTheNeko
     &2https://github.com/LukeTheNeko/NekoMaintenance
     
     
@@ -23,7 +23,9 @@ class Main : JavaPlugin() {
     }
 
     companion object {
+        @JvmField
         var plugin: Main? = null
+        @JvmField
         var msgF: ConfigFile? = null
     }
 }

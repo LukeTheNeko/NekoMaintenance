@@ -7,7 +7,8 @@
 
 - Un plugin sencillo para Minecraft que agrega un mensaje en la lista de jugadores en mantenimiento a tu servidor de Minecraft.
 
-[![Modtag](https://i.imgur.com/JhrNS67.png)]()
+[![Motd](../imgs/img1.png)]()
+[![Motd](../imgs/img2.png)]()
 
 **Permisos:**
 
