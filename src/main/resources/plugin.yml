@@ -1,6 +1,6 @@
 name: NekoMaintenance
 version: '${version}'
-main: NekoMaintenance.Main
+main: NekoMaintenanceKT.Main
 authors: [LukeTheNeko]
 commands:
   maintenance:
