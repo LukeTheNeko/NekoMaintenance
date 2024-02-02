@@ -1,14 +1,17 @@
 <div align="center">
   <img src="../docs/imgs/NekoMaintenance.png" alt="icon" style="width: 300px; display: inline-block;">
 </div>
+<br>
 
-<table>
-  <tr>
-    <td><sub><img src="../docs/imgs/fgb.png" alt="gb" style="width: 20px;"></sub> <a href="./README.md">English</a></td>
-    <td><sub><img src="../docs/imgs/fes.png" alt="es" style="width: 20px;"></sub> <a href="./es/README_ES.md">Español</a></td>
-    <td><sub><img src="../docs/imgs/fbr.png" alt="br" style="width: 20px;"></sub> <a href="./br/README_BR.md">Português</a></td>
-  </tr>
-</table>
+<div align="center">
+  <table>
+    <tr>
+      <td><sub><img src="../docs/imgs/fgb.png" alt="gb" style="width: 20px;"></sub> <a href="./README.md">English</a></td>
+      <td><sub><img src="../docs/imgs/fes.png" alt="es" style="width: 20px;"></sub> <a href="./es/README_ES.md">Español</a></td>
+      <td><sub><img src="../docs/imgs/fbr.png" alt="br" style="width: 20px;"></sub> <a href="./br/README_BR.md">Português</a></td>
+    </tr>
+  </table>
+</div>
 
 <h2>What does the plugin do?</h2>
 
