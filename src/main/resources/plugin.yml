@@ -4,7 +4,7 @@ main: NekoMaintenanceKT.Main
 authors: [LukeTheNeko]
 commands:
   maintenance:
-    description: Plugin Maintenance
+    description: Plugin Maintenance Mode
 permissions:
   NekoMaintenance.commands:
     default: false

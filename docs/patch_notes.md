@@ -1,5 +1,6 @@
 ### 1.3.1
 
+- Refactor Java to Kotlin
 - Added command for Portuguese
 - Minor errors corrected
 

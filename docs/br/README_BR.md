@@ -1,35 +1,55 @@
-# NekoMaintenance
+<div style="text-align: center;">
+  <img src="../../docs/imgs/NekoMaintenance.png" alt="icon" style="width: 300px; display: inline-block;">
+</div>
 
-| <sub>EN</sub> [English](../README.md) | <sub>BR</sub> [Português](../br/README_BR.md) | <sub>ES</sub> [Español](../es/README_ES.md) |
-|-----------------------------------------|-----------------------------------------------|---------------------------------------------|
+<table>
+  <tr>
+    <td><sub>EN</sub> <a href="../README.md">English</a></td>
+    <td><sub>BR</sub> <a href="./README_BR.md">Português</a></td>
+    <td><sub>ES</sub> <a href="../es/README_ES.md">Español</a></td>
+  </tr>
+</table>
 
-**O que o plugin faz?**
+<h2>Oque o Plugin faz?</h2>
 
-- Um plugin simples para Minecraft que adiciona uma mensagem editável na modtag de manutenção ao seu servidor de Minecraft.
+<p>Um plugin simples para Minecraft que adiciona uma mensagem editável na modtag de manutenção ao seu servidor de Minecraft.</p>
 
-[![Motd](../imgs/img1.png)]()
-[![Motd](../imgs/img2.png)]()
+<div style="text-align: center;">
+  <img src="../../docs/imgs/img1.1.png" alt="Motd1" style="width: 1000px; display: inline-block;">
+</div>
+<br>
+<div style="text-align: center;">
+  <img src="../../docs/imgs/img2.png" alt="Motd2" style="width: 700px; display: inline-block;">
+</div>
 
-**Permissões:**
+<h2>Permissões</h2>
 
-- `nekoMaintenance.commands` - Permissão necessária para executar o comando dentro do Minecraft.
-- `nekoMaintenance.join` - Permissão necessária para entrar no servidor em manuntenção.
+<ul>
+  <li><code>NekoMaintenance.commands</code> - Permissão necessária para executar o comando dentro do Minecraft..</li>
+  <li><code>NekoMaintenance.join</code> - Permissão necessária para entrar no servidor em manuntenção.</li>
+</ul>
 
-**Comandos**
+<h2>Comandos</h2>
 
-- `/maintenance ligar`
-- `/maintenance desligar`
+<ul>
+  <li><code>/maintenance ativar</code></li>
+  <li><code>/maintenance desativar</code></li>
+</ul>
 
-**Dependências**
+<h2>Dependencias</h2>
 
-- ProtocolLib (clique [aqui](https://www.spigotmc.org/resources/protocollib.1997/) para baixar)
+<p><a href="https://www.spigotmc.org/resources/protocollib.1997/">ProtocolLib</a> (clique para baixar)</p>
 
-**Versões testadas**
+<h2>Versões testadas</h2>
 
-- 1.8.9
-- 1.9.4
-- 1.10.2
-- 1.12.2
-- 1.19.4
+<ul>
+  <li>1.8.9</li>
+  <li>1.9.4</li>
+  <li>1.10.2</li>
+  <li>1.12.2</li>
+  <li>1.19.4</li>
+</ul>
 
-**Notas de atualização** [Aqui](patch_notes_BR.md)
+<h2>Notas de atualização</h2>
+
+<p><a href="./patch_notes_BR.md">Aqui</a></p>

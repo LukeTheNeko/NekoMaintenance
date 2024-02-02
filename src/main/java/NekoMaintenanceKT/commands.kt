@@ -23,10 +23,14 @@ class commands : CommandExecutor, Listener {
 
     init {
         Main.plugin!!.server.pluginManager.registerEvents(this, Main.plugin)
+        manutencaoAtivada = loadMaintenanceState()
+        if (manutencaoAtivada) {
+            inject()
+            kickPlayersWithoutPermission()
+        }
     }
 
     override fun onCommand(sender: CommandSender, command: Command, label: String, args: Array<String>): Boolean {
-        if (sender !is Player) return false
         val p = sender
         if (!p.hasPermission("NekoMaintenance.commands")) {
             p.sendMessage(c(Main.config!!.getConfig().getString("messages.no-permission")))
@@ -42,6 +46,7 @@ class commands : CommandExecutor, Listener {
                 return true
             }
             manutencaoAtivada = true
+            saveMaintenanceState(true)
             inject()
             saveMessagesToFile()
             kickPlayersWithoutPermission()
@@ -53,11 +58,29 @@ class commands : CommandExecutor, Listener {
                 return true
             }
             manutencaoAtivada = false
+            saveMaintenanceState(false)
             p.sendMessage(c(Main.config!!.getConfig().getString("messages.maintenance-disabled")))
             return true
         }
         p.sendMessage(c(Main.config!!.getConfig().getString("messages.maintenance-on-off")))
         return true
+    }
+
+    fun saveMaintenanceState(state: Boolean) {
+        val file = File(Main.plugin!!.dataFolder, "config.yml")
+        val config: FileConfiguration = YamlConfiguration.loadConfiguration(file)
+        config.set("maintenance", state)
+        try {
+            config.save(file)
+        } catch (e: IOException) {
+            e.printStackTrace()
+        }
+    }
+
+    fun loadMaintenanceState(): Boolean {
+        val file = File(Main.plugin!!.dataFolder, "config.yml")
+        val config: FileConfiguration = YamlConfiguration.loadConfiguration(file)
+        return config.getBoolean("maintenance", false)
     }
 
     fun inject() {

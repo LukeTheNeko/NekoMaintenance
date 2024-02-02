@@ -1,5 +1,6 @@
 ### 1.3.1
 
+- Código refactorizado de Java a Kotlin
 - Comando agregado para el portugués
 - Errores menores corregidos
 
