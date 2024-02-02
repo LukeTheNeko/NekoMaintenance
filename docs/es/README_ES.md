@@ -1,4 +1,4 @@
-<div style="text-align: center;">
+<div align="center">
   <img src="../../docs/imgs/NekoMaintenance.png" alt="icon" style="width: 300px; display: inline-block;">
 </div>
 
@@ -14,11 +14,11 @@
 
 <p>Un plugin sencillo para Minecraft que agrega un mensaje en la lista de jugadores en mantenimiento a tu servidor de Minecraft.</p>
 
-<div style="text-align: center;">
+<div align="center">
   <img src="../../docs/imgs/img1.png" alt="Motd1" style="width: 1000px; display: inline-block;">
 </div>
 <br>
-<div style="text-align: center;">
+<div align="center">
   <img src="../../docs/imgs/img2.png" alt="Motd2" style="width: 700px; display: inline-block;">
 </div>
 

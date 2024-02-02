@@ -1,12 +1,12 @@
-<div style="text-align: center;">
+<div align="center">
   <img src="../../docs/imgs/NekoMaintenance.png" alt="icon" style="width: 300px; display: inline-block;">
 </div>
 
 <table>
   <tr>
-    <td><sub>EN</sub> <a href="../README.md">English</a></td>
-    <td><sub>BR</sub> <a href="./README_BR.md">Português</a></td>
-    <td><sub>ES</sub> <a href="../es/README_ES.md">Español</a></td>
+    <td><sub>🇬🇧</sub> <a href="../README.md">English</a></td>
+    <td><sub>🇧🇷</sub> <a href="./README_BR.md">Português</a></td>
+    <td><sub>🇪🇸</sub> <a href="../es/README_ES.md">Español</a></td>
   </tr>
 </table>
 
@@ -14,11 +14,11 @@
 
 <p>Um plugin simples para Minecraft que adiciona uma mensagem editável na modtag de manutenção ao seu servidor de Minecraft.</p>
 
-<div style="text-align: center;">
+<div align="center">
   <img src="../../docs/imgs/img1.1.png" alt="Motd1" style="width: 1000px; display: inline-block;">
 </div>
 <br>
-<div style="text-align: center;">
+<div align="center">
   <img src="../../docs/imgs/img2.png" alt="Motd2" style="width: 700px; display: inline-block;">
 </div>
 
