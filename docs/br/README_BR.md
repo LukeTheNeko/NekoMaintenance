@@ -4,9 +4,9 @@
 
 <table>
   <tr>
-    <td><sub>🇬🇧</sub> <a href="../README.md">English</a></td>
-    <td><sub>🇧🇷</sub> <a href="./README_BR.md">Português</a></td>
-    <td><sub>🇪🇸</sub> <a href="../es/README_ES.md">Español</a></td>
+    <td><sub><img src="../docs/imgs/fgb.png" alt="gb" style="width: 20px;"></sub> <a href="../README.md">English</a></td>
+    <td><sub><img src="../docs/imgs/fes.png" alt="es" style="width: 20px;"></sub> <a href="../es/README_ES.md">Español</a></td>
+    <td><sub><img src="../docs/imgs/fbr.png" alt="br" style="width: 20px;"></sub> <a href="./README_BR.md">Português</a></td>
   </tr>
 </table>
 
