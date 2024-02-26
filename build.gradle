@@ -28,20 +28,7 @@ dependencies {
 }
 
 jar {
-//    manifest {
-//        duplicatesStrategy = DuplicatesStrategy.EXCLUDE
-//
-//        attributes(
-//                "Implementation-Title": project.name,
-//                "Implementation-Version": project.version,
-//                "Main-Class": "testeKotlin.Main"
-//        )
-//    }
-//
-//    from { configurations.compileClasspath.collect { it.isDirectory() ? it : zipTree(it) } }
-
-    archiveFileName = "NekoMaintenance-1.3.2.jar"
-    destinationDirectory.set(file('C:\\Users\\lucas\\OneDrive\\Desktop\\pluginsx'))
+    archiveFileName = "NekoMaintenance-1.3.3.jar"
 }
 
 def targetJavaVersion = 8
