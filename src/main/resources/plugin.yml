@@ -1,5 +1,5 @@
 name: NekoMaintenance
-version: '${version}'
+version: '1.3.2'
 main: NekoMaintenanceKT.Main
 authors: [LukeTheNeko]
 commands:

@@ -27,8 +27,8 @@
 <h2>Permissions:</h2>
 
 <ul>
-  <li><code>nekoMaintenance.commands</code> - Permiso necesario para ejecutar el comando dentro de Minecraft.</li>
-  <li><code>nekoMaintenance.join</code> - Permiso necesario para unirse al servidor en mantenimiento.</li>
+  <li><code>NekoMaintenance.commands</code> - Permiso necesario para ejecutar el comando dentro de Minecraft.</li>
+  <li><code>NekoMaintenance.join</code> - Permiso necesario para unirse al servidor en mantenimiento.</li>
 </ul>
 
 <h2>Commands</h2>

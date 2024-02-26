@@ -28,8 +28,8 @@
 <h2>Permissions:</h2>
 
 <ul>
-  <li><code>nekoMaintenance.commands</code> - Permission required to execute the command in Minecraft.</li>
-  <li><code>nekoMaintenance.join</code> - Permission required to login the server with maintenance mode enabled.</li>
+  <li><code>NekoMaintenance.commands</code> - Permission required to execute the command in Minecraft.</li>
+  <li><code>NekoMaintenance.join</code> - Permission required to login the server with maintenance mode enabled.</li>
 </ul>
 
 <h2>Commands</h2>
